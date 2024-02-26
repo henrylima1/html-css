@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(32, 31, 32);
+    color: white;
+    font-family: 'Arial Narrow';
+    display: flex;
+    justify-content: center;
+}
+
+.content h1{
+    display: flex;
+    justify-content: center;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content .links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}

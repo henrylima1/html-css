@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(32, 31, 32);
+    color: white;
+    font-family: 'Arial Narrow';
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+}

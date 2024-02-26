@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0f0f0f;
+    height: 3000px;
+}
+
+header{
+    background-color: black;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.logo hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .menu{
+    display: flex;
+    gap: 41px;
+    margin-right: 41px;
+}
+
+header .menu a{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+header .menu li a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 47px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+main .imgs{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px)
+}
+
+main .imgs img{
+    width: 33.33%;
+}
+
+.imgs::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 100%, transparent 65%);
+}
+
+.mainbox{
+    background-color: #0f0f0f;
+    color: white;
+    width: 544px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+    padding-top: 40px;
+    border-radius: 15px;
+    font-family: 'Inter';
+}
+
+.mainbox .redes ul{
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+.mainbox .redes a{
+    color: white;
+}
+
+.mainbox .redes li a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.mainbox .redes img{
+    width: 25px;
+}
+
+.mainbox .redes li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nr{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.domingo .textodomingo{
+    color: white;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 80px;
+    font-family: 'Inter';
+    padding: 30px;
+}
+
+.domingo .textodomingo p{
+    font-size: 14px;
+}
+
+.domingo{
+    display: flex;
+    height: 1000px;
+    margin-top: 200px;
+}
+
+.domingo img{
+    width: 300px;
+    margin: 5px;
+}
+
+.quartas .textoquartas{
+    color: white;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 80px;
+    font-family: 'Inter';
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.quartas .textoquartas p{
+    font-size: 14px;
+}
+
+.quartas img{
+    width: 300px;
+    margin: 5px;
+}
+
+.quartas{
+    display: flex;
+}
+
+.quartas .img4{
+    margin-bottom: 162px;
+}

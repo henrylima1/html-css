@@ -1,0 +1,21 @@
+@media (max-width: 400px){
+    
+    body{
+        width: 400px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    header hr{
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: left;
+    }
+}    
